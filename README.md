@@ -86,7 +86,7 @@ The next example shows the basic component usage on the octocase page:
     {
         // Optional - set the page title to the item title
         if (isset($this['octocaseItem']))
-            $this->page->title = $this['octocaseItem']->title;
+            $this->page->title = $this['item']->title;
     }
     ?>
     ==
