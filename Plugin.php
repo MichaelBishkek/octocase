@@ -22,7 +22,8 @@ class Plugin extends PluginBase
         return [
             'OctoDevel\OctoCase\Components\Item' => 'octocaseItem',
             'OctoDevel\OctoCase\Components\Items' => 'octocaseItems',
-            'OctoDevel\OctoCase\Components\Categories' => 'octocaseCategories',
+			'OctoDevel\OctoCase\Components\Categories' => 'octocaseCategories',
+			'OctoDevel\OctoCase\Components\Itemsmain' => 'octocaseItems',
         ];
     }
 
